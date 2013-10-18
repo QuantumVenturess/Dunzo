@@ -7,20 +7,147 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB496A3517DEC665005FEE8C /* NoteListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB496A3417DEC665005FEE8C /* NoteListViewController.m */; };
+		AB496A3917DECF98005FEE8C /* NoteStore.m in Sources */ = {isa = PBXBuildFile; fileRef = AB496A3817DECF98005FEE8C /* NoteStore.m */; };
+		AB496A3D17DED86D005FEE8C /* NoteViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AB496A3C17DED86D005FEE8C /* NoteViewCell.m */; };
+		AB496A4317E0D851005FEE8C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB496A4217E0D851005FEE8C /* QuartzCore.framework */; };
+		AB496A4617E110BA005FEE8C /* MenuButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = AB496A4517E110BA005FEE8C /* MenuButtonView.m */; };
+		AB496A4917E11244005FEE8C /* AddNoteView.m in Sources */ = {isa = PBXBuildFile; fileRef = AB496A4817E11244005FEE8C /* AddNoteView.m */; };
+		AB496A4D17E19AD6005FEE8C /* checkmark.png in Resources */ = {isa = PBXBuildFile; fileRef = AB496A4B17E19AD6005FEE8C /* checkmark.png */; };
+		AB496A4E17E19AD6005FEE8C /* checkmark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB496A4C17E19AD6005FEE8C /* checkmark@2x.png */; };
+		AB496A5717E1F827005FEE8C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC0593317DD7529003A6C5D /* UIKit.framework */; };
+		AB496A5817E1F827005FEE8C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC0593517DD7529003A6C5D /* Foundation.framework */; };
+		AB496A5E17E1F827005FEE8C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AB496A5C17E1F827005FEE8C /* InfoPlist.strings */; };
+		AB496A6117E1F827005FEE8C /* DunzoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB496A6017E1F827005FEE8C /* DunzoTests.m */; };
+		AB496A6D17E1FAFD005FEE8C /* NoteDetailViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB496A6C17E1FAFD005FEE8C /* NoteDetailViewControllerTests.m */; };
+		AB496A6E17E1FC6F005FEE8C /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC0593917DD7529003A6C5D /* CoreData.framework */; };
+		AB496A7017E1FD98005FEE8C /* NoteListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB496A3417DEC665005FEE8C /* NoteListViewController.m */; };
+		AB496A7117E1FDBF005FEE8C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC059B817DE8A43003A6C5D /* AppDelegate.m */; };
+		AB496A7217E1FDC4005FEE8C /* DunzoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC0599617DE39C1003A6C5D /* DunzoViewController.m */; };
+		AB496A7317E1FDC7005FEE8C /* NoteDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC0599917DE39D9003A6C5D /* NoteDetailViewController.m */; };
+		AB496A7417E1FDCB005FEE8C /* DunzoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC059B517DE5CE9003A6C5D /* DunzoTableViewController.m */; };
+		AB496A7517E1FDDF005FEE8C /* NoteStore.m in Sources */ = {isa = PBXBuildFile; fileRef = AB496A3817DECF98005FEE8C /* NoteStore.m */; };
+		AB496A7617E1FDE4005FEE8C /* NSDate+TimeAgo.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC0599D17DE4082003A6C5D /* NSDate+TimeAgo.m */; };
+		AB496A7717E1FDE7005FEE8C /* NSString+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC0599F17DE4082003A6C5D /* NSString+Extensions.m */; };
+		AB496A7817E1FDEA005FEE8C /* UIColor+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC059A117DE4082003A6C5D /* UIColor+Extensions.m */; };
+		AB496A7917E1FDED005FEE8C /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC059A317DE4082003A6C5D /* UIImage+Resize.m */; };
+		AB496A7A17E1FDF1005FEE8C /* NoteViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AB496A3C17DED86D005FEE8C /* NoteViewCell.m */; };
+		AB496A7B17E1FDF4005FEE8C /* MenuButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = AB496A4517E110BA005FEE8C /* MenuButtonView.m */; };
+		AB496A7C17E1FDF7005FEE8C /* AddNoteView.m in Sources */ = {isa = PBXBuildFile; fileRef = AB496A4817E11244005FEE8C /* AddNoteView.m */; };
+		AB496A7D17E1FE06005FEE8C /* MFSideMenuContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC0595D17DD77EC003A6C5D /* MFSideMenuContainerViewController.m */; };
+		AB496A7E17E1FE22005FEE8C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB496A4217E0D851005FEE8C /* QuartzCore.framework */; };
+		AB496A8117E1FE3D005FEE8C /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB496A7F17E1FE29005FEE8C /* SenTestingKit.framework */; };
+		AB496A8217E2011D005FEE8C /* Note.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC059B317DE5C5A003A6C5D /* Note.m */; };
+		AB496A8817E2186D005FEE8C /* NoteNotDoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB496A8717E2186D005FEE8C /* NoteNotDoneViewController.m */; };
+		AB496A8B17E2189C005FEE8C /* NoteDoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB496A8A17E2189C005FEE8C /* NoteDoneViewController.m */; };
+		AB496A8E17E21E21005FEE8C /* NoteDoneGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = AB496A8D17E21E21005FEE8C /* NoteDoneGroup.m */; };
+		AB496A9117E2216A005FEE8C /* Note+Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = AB496A9017E2216A005FEE8C /* Note+Custom.m */; };
+		AB496A9217E223BE005FEE8C /* Note.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC059B317DE5C5A003A6C5D /* Note.m */; };
+		AB496A9817E22F72005FEE8C /* NoteDoneViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AB496A9717E22F72005FEE8C /* NoteDoneViewCell.m */; };
+		AB496A9B17E22F81005FEE8C /* NoteNotDoneViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AB496A9A17E22F81005FEE8C /* NoteNotDoneViewCell.m */; };
+		AB496A9E17E2548A005FEE8C /* lightning_white.png in Resources */ = {isa = PBXBuildFile; fileRef = AB496A9C17E2548A005FEE8C /* lightning_white.png */; };
+		AB496A9F17E2548A005FEE8C /* lightning_white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB496A9D17E2548A005FEE8C /* lightning_white@2x.png */; };
+		AB496AA817E38D0C005FEE8C /* DunzoManagedObjectContext.m in Sources */ = {isa = PBXBuildFile; fileRef = AB496AA717E38D0C005FEE8C /* DunzoManagedObjectContext.m */; };
+		AB9A151717EBBD1100D9441F /* clock.png in Resources */ = {isa = PBXBuildFile; fileRef = AB9A151517EBBD1100D9441F /* clock.png */; };
+		AB9A151817EBBD1100D9441F /* clock@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB9A151617EBBD1100D9441F /* clock@2x.png */; };
+		AB9A151B17EC0FE800D9441F /* DunzoButton.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9A151A17EC0FE800D9441F /* DunzoButton.m */; };
+		AB9A151E17EC146E00D9441F /* DunzoButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9A151D17EC146E00D9441F /* DunzoButtonView.m */; };
+		AB9A152B17EC854000D9441F /* clock_red.png in Resources */ = {isa = PBXBuildFile; fileRef = AB9A152917EC854000D9441F /* clock_red.png */; };
+		AB9A152C17EC854000D9441F /* clock_red@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB9A152A17EC854000D9441F /* clock_red@2x.png */; };
+		AB9A152F17EC85E300D9441F /* clock_white.png in Resources */ = {isa = PBXBuildFile; fileRef = AB9A152D17EC85E300D9441F /* clock_white.png */; };
+		AB9A153017EC85E300D9441F /* clock_white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB9A152E17EC85E300D9441F /* clock_white@2x.png */; };
+		AB9A153317ECB27100D9441F /* TextFieldPadding.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9A153217ECB27100D9441F /* TextFieldPadding.m */; };
+		AB9A153617ECC02F00D9441F /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = AB9A153417ECC02F00D9441F /* search.png */; };
+		AB9A153717ECC02F00D9441F /* search@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB9A153517ECC02F00D9441F /* search@2x.png */; };
 		ABC0593417DD7529003A6C5D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC0593317DD7529003A6C5D /* UIKit.framework */; };
 		ABC0593617DD7529003A6C5D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC0593517DD7529003A6C5D /* Foundation.framework */; };
 		ABC0593817DD7529003A6C5D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC0593717DD7529003A6C5D /* CoreGraphics.framework */; };
 		ABC0593A17DD7529003A6C5D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC0593917DD7529003A6C5D /* CoreData.framework */; };
 		ABC0594017DD7529003A6C5D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ABC0593E17DD7529003A6C5D /* InfoPlist.strings */; };
 		ABC0594217DD7529003A6C5D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC0594117DD7529003A6C5D /* main.m */; };
-		ABC0594617DD7529003A6C5D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC0594517DD7529003A6C5D /* AppDelegate.m */; };
 		ABC0594817DD7529003A6C5D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = ABC0594717DD7529003A6C5D /* Default.png */; };
 		ABC0594A17DD7529003A6C5D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ABC0594917DD7529003A6C5D /* Default@2x.png */; };
 		ABC0594C17DD7529003A6C5D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ABC0594B17DD7529003A6C5D /* Default-568h@2x.png */; };
 		ABC0594F17DD7529003A6C5D /* Dunzo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ABC0594D17DD7529003A6C5D /* Dunzo.xcdatamodeld */; };
+		ABC0595E17DD77EC003A6C5D /* MFSideMenuContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC0595D17DD77EC003A6C5D /* MFSideMenuContainerViewController.m */; };
+		ABC0599717DE39C1003A6C5D /* DunzoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC0599617DE39C1003A6C5D /* DunzoViewController.m */; };
+		ABC0599A17DE39D9003A6C5D /* NoteDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC0599917DE39D9003A6C5D /* NoteDetailViewController.m */; };
+		ABC059A417DE4082003A6C5D /* NSDate+TimeAgo.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC0599D17DE4082003A6C5D /* NSDate+TimeAgo.m */; };
+		ABC059A517DE4082003A6C5D /* NSString+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC0599F17DE4082003A6C5D /* NSString+Extensions.m */; };
+		ABC059A617DE4082003A6C5D /* UIColor+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC059A117DE4082003A6C5D /* UIColor+Extensions.m */; };
+		ABC059A717DE4082003A6C5D /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC059A317DE4082003A6C5D /* UIImage+Resize.m */; };
+		ABC059B617DE5CE9003A6C5D /* DunzoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC059B517DE5CE9003A6C5D /* DunzoTableViewController.m */; };
+		ABC059B917DE8A43003A6C5D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC059B817DE8A43003A6C5D /* AppDelegate.m */; };
+		ABC67D9317F3E34500EC1A87 /* ImageStore.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC67D9217F3E34500EC1A87 /* ImageStore.m */; };
+		ABC67D9717F3E65B00EC1A87 /* icon_app.png in Resources */ = {isa = PBXBuildFile; fileRef = ABC67D9417F3E65B00EC1A87 /* icon_app.png */; };
+		ABC67D9817F3E65B00EC1A87 /* icon_settings.png in Resources */ = {isa = PBXBuildFile; fileRef = ABC67D9517F3E65B00EC1A87 /* icon_settings.png */; };
+		ABC67D9917F3E65B00EC1A87 /* icon_spotlight.png in Resources */ = {isa = PBXBuildFile; fileRef = ABC67D9617F3E65B00EC1A87 /* icon_spotlight.png */; };
+		ABC67DA017F3F39100EC1A87 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = ABC67D9E17F3F39100EC1A87 /* icon.png */; };
+		ABC67DA117F3F39100EC1A87 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ABC67D9F17F3F39100EC1A87 /* icon@2x.png */; };
+		ABF1783317E7B5B10046D04D /* TSQCalendarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF1782C17E7B5B10046D04D /* TSQCalendarCell.m */; };
+		ABF1783417E7B5B10046D04D /* TSQCalendarMonthHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF1782E17E7B5B10046D04D /* TSQCalendarMonthHeaderCell.m */; };
+		ABF1783517E7B5B10046D04D /* TSQCalendarRowCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF1783017E7B5B10046D04D /* TSQCalendarRowCell.m */; };
+		ABF1783617E7B5B10046D04D /* TSQCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF1783217E7B5B10046D04D /* TSQCalendarView.m */; };
+		ABF1783917E8159A0046D04D /* CalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF1783817E8159A0046D04D /* CalendarViewController.m */; };
+		ABF1783C17E818740046D04D /* FlatNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF1783B17E818740046D04D /* FlatNavigationBar.m */; };
+		ABF1783F17E818AA0046D04D /* DunzoNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF1783E17E818AA0046D04D /* DunzoNavigationViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AB496A3317DEC665005FEE8C /* NoteListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteListViewController.h; sourceTree = "<group>"; };
+		AB496A3417DEC665005FEE8C /* NoteListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteListViewController.m; sourceTree = "<group>"; };
+		AB496A3717DECF98005FEE8C /* NoteStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteStore.h; sourceTree = "<group>"; };
+		AB496A3817DECF98005FEE8C /* NoteStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteStore.m; sourceTree = "<group>"; };
+		AB496A3B17DED86D005FEE8C /* NoteViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteViewCell.h; sourceTree = "<group>"; };
+		AB496A3C17DED86D005FEE8C /* NoteViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteViewCell.m; sourceTree = "<group>"; };
+		AB496A4217E0D851005FEE8C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		AB496A4417E110BA005FEE8C /* MenuButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuButtonView.h; sourceTree = "<group>"; };
+		AB496A4517E110BA005FEE8C /* MenuButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuButtonView.m; sourceTree = "<group>"; };
+		AB496A4717E11244005FEE8C /* AddNoteView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddNoteView.h; sourceTree = "<group>"; };
+		AB496A4817E11244005FEE8C /* AddNoteView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddNoteView.m; sourceTree = "<group>"; };
+		AB496A4B17E19AD6005FEE8C /* checkmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkmark.png; sourceTree = "<group>"; };
+		AB496A4C17E19AD6005FEE8C /* checkmark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkmark@2x.png"; sourceTree = "<group>"; };
+		AB496A5417E1F827005FEE8C /* DunzoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DunzoTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB496A5517E1F827005FEE8C /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		AB496A5B17E1F827005FEE8C /* DunzoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DunzoTests-Info.plist"; sourceTree = "<group>"; };
+		AB496A5D17E1F827005FEE8C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AB496A5F17E1F827005FEE8C /* DunzoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DunzoTests.h; sourceTree = "<group>"; };
+		AB496A6017E1F827005FEE8C /* DunzoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DunzoTests.m; sourceTree = "<group>"; };
+		AB496A6217E1F827005FEE8C /* DunzoTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DunzoTests-Prefix.pch"; sourceTree = "<group>"; };
+		AB496A6B17E1FAFD005FEE8C /* NoteDetailViewControllerTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteDetailViewControllerTests.h; sourceTree = "<group>"; };
+		AB496A6C17E1FAFD005FEE8C /* NoteDetailViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteDetailViewControllerTests.m; sourceTree = "<group>"; };
+		AB496A7F17E1FE29005FEE8C /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		AB496A8617E2186D005FEE8C /* NoteNotDoneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteNotDoneViewController.h; sourceTree = "<group>"; };
+		AB496A8717E2186D005FEE8C /* NoteNotDoneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteNotDoneViewController.m; sourceTree = "<group>"; };
+		AB496A8917E2189C005FEE8C /* NoteDoneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteDoneViewController.h; sourceTree = "<group>"; };
+		AB496A8A17E2189C005FEE8C /* NoteDoneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteDoneViewController.m; sourceTree = "<group>"; };
+		AB496A8C17E21E21005FEE8C /* NoteDoneGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteDoneGroup.h; sourceTree = "<group>"; };
+		AB496A8D17E21E21005FEE8C /* NoteDoneGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteDoneGroup.m; sourceTree = "<group>"; };
+		AB496A8F17E2216A005FEE8C /* Note+Custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Note+Custom.h"; sourceTree = "<group>"; };
+		AB496A9017E2216A005FEE8C /* Note+Custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Note+Custom.m"; sourceTree = "<group>"; };
+		AB496A9617E22F72005FEE8C /* NoteDoneViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteDoneViewCell.h; sourceTree = "<group>"; };
+		AB496A9717E22F72005FEE8C /* NoteDoneViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteDoneViewCell.m; sourceTree = "<group>"; };
+		AB496A9917E22F81005FEE8C /* NoteNotDoneViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteNotDoneViewCell.h; sourceTree = "<group>"; };
+		AB496A9A17E22F81005FEE8C /* NoteNotDoneViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteNotDoneViewCell.m; sourceTree = "<group>"; };
+		AB496A9C17E2548A005FEE8C /* lightning_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lightning_white.png; sourceTree = "<group>"; };
+		AB496A9D17E2548A005FEE8C /* lightning_white@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lightning_white@2x.png"; sourceTree = "<group>"; };
+		AB496AA617E38D0C005FEE8C /* DunzoManagedObjectContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DunzoManagedObjectContext.h; sourceTree = "<group>"; };
+		AB496AA717E38D0C005FEE8C /* DunzoManagedObjectContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DunzoManagedObjectContext.m; sourceTree = "<group>"; };
+		AB9A151517EBBD1100D9441F /* clock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clock.png; sourceTree = "<group>"; };
+		AB9A151617EBBD1100D9441F /* clock@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clock@2x.png"; sourceTree = "<group>"; };
+		AB9A151917EC0FE800D9441F /* DunzoButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DunzoButton.h; sourceTree = "<group>"; };
+		AB9A151A17EC0FE800D9441F /* DunzoButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DunzoButton.m; sourceTree = "<group>"; };
+		AB9A151C17EC146E00D9441F /* DunzoButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DunzoButtonView.h; sourceTree = "<group>"; };
+		AB9A151D17EC146E00D9441F /* DunzoButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DunzoButtonView.m; sourceTree = "<group>"; };
+		AB9A152717EC1FCB00D9441F /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		AB9A152917EC854000D9441F /* clock_red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clock_red.png; sourceTree = "<group>"; };
+		AB9A152A17EC854000D9441F /* clock_red@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clock_red@2x.png"; sourceTree = "<group>"; };
+		AB9A152D17EC85E300D9441F /* clock_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clock_white.png; sourceTree = "<group>"; };
+		AB9A152E17EC85E300D9441F /* clock_white@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clock_white@2x.png"; sourceTree = "<group>"; };
+		AB9A153117ECB27100D9441F /* TextFieldPadding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextFieldPadding.h; sourceTree = "<group>"; };
+		AB9A153217ECB27100D9441F /* TextFieldPadding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextFieldPadding.m; sourceTree = "<group>"; };
+		AB9A153417ECC02F00D9441F /* search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search.png; sourceTree = "<group>"; };
+		AB9A153517ECC02F00D9441F /* search@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "search@2x.png"; sourceTree = "<group>"; };
 		ABC0593017DD7529003A6C5D /* Dunzo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dunzo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABC0593317DD7529003A6C5D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		ABC0593517DD7529003A6C5D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -30,19 +157,74 @@
 		ABC0593F17DD7529003A6C5D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		ABC0594117DD7529003A6C5D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		ABC0594317DD7529003A6C5D /* Dunzo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Dunzo-Prefix.pch"; sourceTree = "<group>"; };
-		ABC0594417DD7529003A6C5D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		ABC0594517DD7529003A6C5D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		ABC0594717DD7529003A6C5D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		ABC0594917DD7529003A6C5D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		ABC0594B17DD7529003A6C5D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		ABC0594E17DD7529003A6C5D /* Dunzo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Dunzo.xcdatamodel; sourceTree = "<group>"; };
+		ABC0595B17DD77EC003A6C5D /* MFSideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFSideMenu.h; sourceTree = "<group>"; };
+		ABC0595C17DD77EC003A6C5D /* MFSideMenuContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFSideMenuContainerViewController.h; sourceTree = "<group>"; };
+		ABC0595D17DD77EC003A6C5D /* MFSideMenuContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFSideMenuContainerViewController.m; sourceTree = "<group>"; };
+		ABC0599517DE39C1003A6C5D /* DunzoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DunzoViewController.h; sourceTree = "<group>"; };
+		ABC0599617DE39C1003A6C5D /* DunzoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DunzoViewController.m; sourceTree = "<group>"; };
+		ABC0599817DE39D9003A6C5D /* NoteDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteDetailViewController.h; sourceTree = "<group>"; };
+		ABC0599917DE39D9003A6C5D /* NoteDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteDetailViewController.m; sourceTree = "<group>"; };
+		ABC0599C17DE4082003A6C5D /* NSDate+TimeAgo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+TimeAgo.h"; sourceTree = "<group>"; };
+		ABC0599D17DE4082003A6C5D /* NSDate+TimeAgo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+TimeAgo.m"; sourceTree = "<group>"; };
+		ABC0599E17DE4082003A6C5D /* NSString+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extensions.h"; sourceTree = "<group>"; };
+		ABC0599F17DE4082003A6C5D /* NSString+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extensions.m"; sourceTree = "<group>"; };
+		ABC059A017DE4082003A6C5D /* UIColor+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extensions.h"; sourceTree = "<group>"; };
+		ABC059A117DE4082003A6C5D /* UIColor+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extensions.m"; sourceTree = "<group>"; };
+		ABC059A217DE4082003A6C5D /* UIImage+Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resize.h"; sourceTree = "<group>"; };
+		ABC059A317DE4082003A6C5D /* UIImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resize.m"; sourceTree = "<group>"; };
+		ABC059B217DE5C5A003A6C5D /* Note.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Note.h; sourceTree = "<group>"; };
+		ABC059B317DE5C5A003A6C5D /* Note.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Note.m; sourceTree = "<group>"; };
+		ABC059B417DE5CE9003A6C5D /* DunzoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DunzoTableViewController.h; sourceTree = "<group>"; };
+		ABC059B517DE5CE9003A6C5D /* DunzoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DunzoTableViewController.m; sourceTree = "<group>"; };
+		ABC059B717DE8A43003A6C5D /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Dunzo/AppDelegate/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		ABC059B817DE8A43003A6C5D /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Dunzo/AppDelegate/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		ABC67D9117F3E34500EC1A87 /* ImageStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageStore.h; sourceTree = "<group>"; };
+		ABC67D9217F3E34500EC1A87 /* ImageStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageStore.m; sourceTree = "<group>"; };
+		ABC67D9417F3E65B00EC1A87 /* icon_app.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_app.png; sourceTree = "<group>"; };
+		ABC67D9517F3E65B00EC1A87 /* icon_settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_settings.png; sourceTree = "<group>"; };
+		ABC67D9617F3E65B00EC1A87 /* icon_spotlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_spotlight.png; sourceTree = "<group>"; };
+		ABC67D9E17F3F39100EC1A87 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		ABC67D9F17F3F39100EC1A87 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		ABF1782917E7B5B10046D04D /* TimesSquare-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TimesSquare-Prefix.pch"; sourceTree = "<group>"; };
+		ABF1782A17E7B5B10046D04D /* TimesSquare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimesSquare.h; sourceTree = "<group>"; };
+		ABF1782B17E7B5B10046D04D /* TSQCalendarCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSQCalendarCell.h; sourceTree = "<group>"; };
+		ABF1782C17E7B5B10046D04D /* TSQCalendarCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSQCalendarCell.m; sourceTree = "<group>"; };
+		ABF1782D17E7B5B10046D04D /* TSQCalendarMonthHeaderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSQCalendarMonthHeaderCell.h; sourceTree = "<group>"; };
+		ABF1782E17E7B5B10046D04D /* TSQCalendarMonthHeaderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSQCalendarMonthHeaderCell.m; sourceTree = "<group>"; };
+		ABF1782F17E7B5B10046D04D /* TSQCalendarRowCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSQCalendarRowCell.h; sourceTree = "<group>"; };
+		ABF1783017E7B5B10046D04D /* TSQCalendarRowCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSQCalendarRowCell.m; sourceTree = "<group>"; };
+		ABF1783117E7B5B10046D04D /* TSQCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSQCalendarView.h; sourceTree = "<group>"; };
+		ABF1783217E7B5B10046D04D /* TSQCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSQCalendarView.m; sourceTree = "<group>"; };
+		ABF1783717E8159A0046D04D /* CalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarViewController.h; sourceTree = "<group>"; };
+		ABF1783817E8159A0046D04D /* CalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarViewController.m; sourceTree = "<group>"; };
+		ABF1783A17E818740046D04D /* FlatNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlatNavigationBar.h; sourceTree = "<group>"; };
+		ABF1783B17E818740046D04D /* FlatNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlatNavigationBar.m; sourceTree = "<group>"; };
+		ABF1783D17E818AA0046D04D /* DunzoNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DunzoNavigationViewController.h; sourceTree = "<group>"; };
+		ABF1783E17E818AA0046D04D /* DunzoNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DunzoNavigationViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		AB496A5017E1F827005FEE8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB496A8117E1FE3D005FEE8C /* SenTestingKit.framework in Frameworks */,
+				AB496A7E17E1FE22005FEE8C /* QuartzCore.framework in Frameworks */,
+				AB496A6E17E1FC6F005FEE8C /* CoreData.framework in Frameworks */,
+				AB496A5717E1F827005FEE8C /* UIKit.framework in Frameworks */,
+				AB496A5817E1F827005FEE8C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		ABC0592D17DD7529003A6C5D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB496A4317E0D851005FEE8C /* QuartzCore.framework in Frameworks */,
 				ABC0593417DD7529003A6C5D /* UIKit.framework in Frameworks */,
 				ABC0593617DD7529003A6C5D /* Foundation.framework in Frameworks */,
 				ABC0593817DD7529003A6C5D /* CoreGraphics.framework in Frameworks */,
@@ -53,12 +235,105 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AB496A3617DECF86005FEE8C /* Stores */ = {
+			isa = PBXGroup;
+			children = (
+				AB496A3717DECF98005FEE8C /* NoteStore.h */,
+				AB496A3817DECF98005FEE8C /* NoteStore.m */,
+				ABC67D9117F3E34500EC1A87 /* ImageStore.h */,
+				ABC67D9217F3E34500EC1A87 /* ImageStore.m */,
+			);
+			path = Stores;
+			sourceTree = "<group>";
+		};
+		AB496A3A17DED854005FEE8C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AB9A153117ECB27100D9441F /* TextFieldPadding.h */,
+				AB9A153217ECB27100D9441F /* TextFieldPadding.m */,
+				ABF1783A17E818740046D04D /* FlatNavigationBar.h */,
+				ABF1783B17E818740046D04D /* FlatNavigationBar.m */,
+				AB496A3B17DED86D005FEE8C /* NoteViewCell.h */,
+				AB496A3C17DED86D005FEE8C /* NoteViewCell.m */,
+				AB496A4417E110BA005FEE8C /* MenuButtonView.h */,
+				AB496A4517E110BA005FEE8C /* MenuButtonView.m */,
+				AB496A4717E11244005FEE8C /* AddNoteView.h */,
+				AB496A4817E11244005FEE8C /* AddNoteView.m */,
+				AB496A9617E22F72005FEE8C /* NoteDoneViewCell.h */,
+				AB496A9717E22F72005FEE8C /* NoteDoneViewCell.m */,
+				AB496A9917E22F81005FEE8C /* NoteNotDoneViewCell.h */,
+				AB496A9A17E22F81005FEE8C /* NoteNotDoneViewCell.m */,
+				AB9A151917EC0FE800D9441F /* DunzoButton.h */,
+				AB9A151A17EC0FE800D9441F /* DunzoButton.m */,
+				AB9A151C17EC146E00D9441F /* DunzoButtonView.h */,
+				AB9A151D17EC146E00D9441F /* DunzoButtonView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AB496A4A17E19AD5005FEE8C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				ABC67D9E17F3F39100EC1A87 /* icon.png */,
+				ABC67D9F17F3F39100EC1A87 /* icon@2x.png */,
+				ABC67D9417F3E65B00EC1A87 /* icon_app.png */,
+				ABC67D9517F3E65B00EC1A87 /* icon_settings.png */,
+				ABC67D9617F3E65B00EC1A87 /* icon_spotlight.png */,
+				AB9A153417ECC02F00D9441F /* search.png */,
+				AB9A153517ECC02F00D9441F /* search@2x.png */,
+				AB9A152D17EC85E300D9441F /* clock_white.png */,
+				AB9A152E17EC85E300D9441F /* clock_white@2x.png */,
+				AB9A152917EC854000D9441F /* clock_red.png */,
+				AB9A152A17EC854000D9441F /* clock_red@2x.png */,
+				AB9A151517EBBD1100D9441F /* clock.png */,
+				AB9A151617EBBD1100D9441F /* clock@2x.png */,
+				AB496A9C17E2548A005FEE8C /* lightning_white.png */,
+				AB496A9D17E2548A005FEE8C /* lightning_white@2x.png */,
+				AB496A4B17E19AD6005FEE8C /* checkmark.png */,
+				AB496A4C17E19AD6005FEE8C /* checkmark@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		AB496A5917E1F827005FEE8C /* DunzoTests */ = {
+			isa = PBXGroup;
+			children = (
+				AB496A6A17E1FAE6005FEE8C /* Controllers */,
+				AB496A5F17E1F827005FEE8C /* DunzoTests.h */,
+				AB496A6017E1F827005FEE8C /* DunzoTests.m */,
+				AB496A5A17E1F827005FEE8C /* Supporting Files */,
+			);
+			path = DunzoTests;
+			sourceTree = "<group>";
+		};
+		AB496A5A17E1F827005FEE8C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB496A5B17E1F827005FEE8C /* DunzoTests-Info.plist */,
+				AB496A5C17E1F827005FEE8C /* InfoPlist.strings */,
+				AB496A6217E1F827005FEE8C /* DunzoTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AB496A6A17E1FAE6005FEE8C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AB496A6B17E1FAFD005FEE8C /* NoteDetailViewControllerTests.h */,
+				AB496A6C17E1FAFD005FEE8C /* NoteDetailViewControllerTests.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		ABC0592717DD7529003A6C5D = {
 			isa = PBXGroup;
 			children = (
 				ABC0593B17DD7529003A6C5D /* Dunzo */,
+				AB496A5917E1F827005FEE8C /* DunzoTests */,
 				ABC0593217DD7529003A6C5D /* Frameworks */,
+				ABC0595A17DD77EC003A6C5D /* MFSideMenu */,
 				ABC0593117DD7529003A6C5D /* Products */,
+				ABF1782817E7B5B10046D04D /* TimesSquare */,
 			);
 			sourceTree = "<group>";
 		};
@@ -66,6 +341,7 @@
 			isa = PBXGroup;
 			children = (
 				ABC0593017DD7529003A6C5D /* Dunzo.app */,
+				AB496A5417E1F827005FEE8C /* DunzoTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -73,10 +349,14 @@
 		ABC0593217DD7529003A6C5D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AB9A152717EC1FCB00D9441F /* Accelerate.framework */,
+				AB496A7F17E1FE29005FEE8C /* SenTestingKit.framework */,
+				AB496A4217E0D851005FEE8C /* QuartzCore.framework */,
 				ABC0593317DD7529003A6C5D /* UIKit.framework */,
 				ABC0593517DD7529003A6C5D /* Foundation.framework */,
 				ABC0593717DD7529003A6C5D /* CoreGraphics.framework */,
 				ABC0593917DD7529003A6C5D /* CoreData.framework */,
+				AB496A5517E1F827005FEE8C /* SenTestingKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -84,10 +364,15 @@
 		ABC0593B17DD7529003A6C5D /* Dunzo */ = {
 			isa = PBXGroup;
 			children = (
-				ABC0594417DD7529003A6C5D /* AppDelegate.h */,
-				ABC0594517DD7529003A6C5D /* AppDelegate.m */,
+				ABC0595517DD755A003A6C5D /* AppDelegate */,
+				ABC0595817DD755A003A6C5D /* Controllers */,
 				ABC0594D17DD7529003A6C5D /* Dunzo.xcdatamodeld */,
+				AB496A4A17E19AD5005FEE8C /* Images */,
+				ABC059AB17DE5BAD003A6C5D /* Models */,
+				AB496A3617DECF86005FEE8C /* Stores */,
 				ABC0593C17DD7529003A6C5D /* Supporting Files */,
+				ABC0599B17DE4082003A6C5D /* Utilities */,
+				AB496A3A17DED854005FEE8C /* Views */,
 			);
 			path = Dunzo;
 			sourceTree = "<group>";
@@ -106,9 +391,117 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		ABC0595517DD755A003A6C5D /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				ABC059B717DE8A43003A6C5D /* AppDelegate.h */,
+				ABC059B817DE8A43003A6C5D /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			path = "App Delegate";
+			sourceTree = "<group>";
+		};
+		ABC0595817DD755A003A6C5D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				ABC059B417DE5CE9003A6C5D /* DunzoTableViewController.h */,
+				ABC059B517DE5CE9003A6C5D /* DunzoTableViewController.m */,
+				ABC0599517DE39C1003A6C5D /* DunzoViewController.h */,
+				ABC0599617DE39C1003A6C5D /* DunzoViewController.m */,
+				ABC0599817DE39D9003A6C5D /* NoteDetailViewController.h */,
+				ABC0599917DE39D9003A6C5D /* NoteDetailViewController.m */,
+				AB496A8917E2189C005FEE8C /* NoteDoneViewController.h */,
+				AB496A8A17E2189C005FEE8C /* NoteDoneViewController.m */,
+				AB496A3317DEC665005FEE8C /* NoteListViewController.h */,
+				AB496A3417DEC665005FEE8C /* NoteListViewController.m */,
+				AB496A8617E2186D005FEE8C /* NoteNotDoneViewController.h */,
+				AB496A8717E2186D005FEE8C /* NoteNotDoneViewController.m */,
+				ABF1783717E8159A0046D04D /* CalendarViewController.h */,
+				ABF1783817E8159A0046D04D /* CalendarViewController.m */,
+				ABF1783D17E818AA0046D04D /* DunzoNavigationViewController.h */,
+				ABF1783E17E818AA0046D04D /* DunzoNavigationViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		ABC0595A17DD77EC003A6C5D /* MFSideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				ABC0595B17DD77EC003A6C5D /* MFSideMenu.h */,
+				ABC0595C17DD77EC003A6C5D /* MFSideMenuContainerViewController.h */,
+				ABC0595D17DD77EC003A6C5D /* MFSideMenuContainerViewController.m */,
+			);
+			path = MFSideMenu;
+			sourceTree = "<group>";
+		};
+		ABC0599B17DE4082003A6C5D /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				ABC0599C17DE4082003A6C5D /* NSDate+TimeAgo.h */,
+				ABC0599D17DE4082003A6C5D /* NSDate+TimeAgo.m */,
+				ABC0599E17DE4082003A6C5D /* NSString+Extensions.h */,
+				ABC0599F17DE4082003A6C5D /* NSString+Extensions.m */,
+				ABC059A017DE4082003A6C5D /* UIColor+Extensions.h */,
+				ABC059A117DE4082003A6C5D /* UIColor+Extensions.m */,
+				ABC059A217DE4082003A6C5D /* UIImage+Resize.h */,
+				ABC059A317DE4082003A6C5D /* UIImage+Resize.m */,
+				AB496AA617E38D0C005FEE8C /* DunzoManagedObjectContext.h */,
+				AB496AA717E38D0C005FEE8C /* DunzoManagedObjectContext.m */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		ABC059AB17DE5BAD003A6C5D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				ABC059B217DE5C5A003A6C5D /* Note.h */,
+				ABC059B317DE5C5A003A6C5D /* Note.m */,
+				AB496A8C17E21E21005FEE8C /* NoteDoneGroup.h */,
+				AB496A8D17E21E21005FEE8C /* NoteDoneGroup.m */,
+				AB496A8F17E2216A005FEE8C /* Note+Custom.h */,
+				AB496A9017E2216A005FEE8C /* Note+Custom.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		ABF1782817E7B5B10046D04D /* TimesSquare */ = {
+			isa = PBXGroup;
+			children = (
+				ABF1782917E7B5B10046D04D /* TimesSquare-Prefix.pch */,
+				ABF1782A17E7B5B10046D04D /* TimesSquare.h */,
+				ABF1782B17E7B5B10046D04D /* TSQCalendarCell.h */,
+				ABF1782C17E7B5B10046D04D /* TSQCalendarCell.m */,
+				ABF1782D17E7B5B10046D04D /* TSQCalendarMonthHeaderCell.h */,
+				ABF1782E17E7B5B10046D04D /* TSQCalendarMonthHeaderCell.m */,
+				ABF1782F17E7B5B10046D04D /* TSQCalendarRowCell.h */,
+				ABF1783017E7B5B10046D04D /* TSQCalendarRowCell.m */,
+				ABF1783117E7B5B10046D04D /* TSQCalendarView.h */,
+				ABF1783217E7B5B10046D04D /* TSQCalendarView.m */,
+			);
+			path = TimesSquare;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		AB496A5317E1F827005FEE8C /* DunzoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB496A6317E1F827005FEE8C /* Build configuration list for PBXNativeTarget "DunzoTests" */;
+			buildPhases = (
+				AB496A4F17E1F827005FEE8C /* Sources */,
+				AB496A5017E1F827005FEE8C /* Frameworks */,
+				AB496A5117E1F827005FEE8C /* Resources */,
+				AB496A5217E1F827005FEE8C /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DunzoTests;
+			productName = DunzoTests;
+			productReference = AB496A5417E1F827005FEE8C /* DunzoTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
 		ABC0592F17DD7529003A6C5D /* Dunzo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = ABC0595217DD7529003A6C5D /* Build configuration list for PBXNativeTarget "Dunzo" */;
@@ -134,6 +527,11 @@
 			attributes = {
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Quantum Ventures";
+				TargetAttributes = {
+					ABC0592F17DD7529003A6C5D = {
+						DevelopmentTeam = 3YXX687BYN;
+					};
+				};
 			};
 			buildConfigurationList = ABC0592B17DD7529003A6C5D /* Build configuration list for PBXProject "Dunzo" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -148,38 +546,144 @@
 			projectRoot = "";
 			targets = (
 				ABC0592F17DD7529003A6C5D /* Dunzo */,
+				AB496A5317E1F827005FEE8C /* DunzoTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		AB496A5117E1F827005FEE8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB496A5E17E1F827005FEE8C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		ABC0592E17DD7529003A6C5D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB9A153717ECC02F00D9441F /* search@2x.png in Resources */,
 				ABC0594017DD7529003A6C5D /* InfoPlist.strings in Resources */,
+				ABC67D9917F3E65B00EC1A87 /* icon_spotlight.png in Resources */,
+				AB9A152C17EC854000D9441F /* clock_red@2x.png in Resources */,
 				ABC0594817DD7529003A6C5D /* Default.png in Resources */,
+				AB9A153617ECC02F00D9441F /* search.png in Resources */,
+				ABC67D9717F3E65B00EC1A87 /* icon_app.png in Resources */,
+				AB9A152B17EC854000D9441F /* clock_red.png in Resources */,
+				ABC67D9817F3E65B00EC1A87 /* icon_settings.png in Resources */,
 				ABC0594A17DD7529003A6C5D /* Default@2x.png in Resources */,
 				ABC0594C17DD7529003A6C5D /* Default-568h@2x.png in Resources */,
+				AB9A152F17EC85E300D9441F /* clock_white.png in Resources */,
+				AB496A4D17E19AD6005FEE8C /* checkmark.png in Resources */,
+				AB9A151717EBBD1100D9441F /* clock.png in Resources */,
+				ABC67DA117F3F39100EC1A87 /* icon@2x.png in Resources */,
+				AB9A153017EC85E300D9441F /* clock_white@2x.png in Resources */,
+				AB496A4E17E19AD6005FEE8C /* checkmark@2x.png in Resources */,
+				ABC67DA017F3F39100EC1A87 /* icon.png in Resources */,
+				AB9A151817EBBD1100D9441F /* clock@2x.png in Resources */,
+				AB496A9E17E2548A005FEE8C /* lightning_white.png in Resources */,
+				AB496A9F17E2548A005FEE8C /* lightning_white@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		AB496A5217E1F827005FEE8C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		AB496A4F17E1F827005FEE8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB496A6117E1F827005FEE8C /* DunzoTests.m in Sources */,
+				AB496A6D17E1FAFD005FEE8C /* NoteDetailViewControllerTests.m in Sources */,
+				AB496A7017E1FD98005FEE8C /* NoteListViewController.m in Sources */,
+				AB496A7117E1FDBF005FEE8C /* AppDelegate.m in Sources */,
+				AB496A7217E1FDC4005FEE8C /* DunzoViewController.m in Sources */,
+				AB496A7317E1FDC7005FEE8C /* NoteDetailViewController.m in Sources */,
+				AB496A7417E1FDCB005FEE8C /* DunzoTableViewController.m in Sources */,
+				AB496A7517E1FDDF005FEE8C /* NoteStore.m in Sources */,
+				AB496A7617E1FDE4005FEE8C /* NSDate+TimeAgo.m in Sources */,
+				AB496A7717E1FDE7005FEE8C /* NSString+Extensions.m in Sources */,
+				AB496A7817E1FDEA005FEE8C /* UIColor+Extensions.m in Sources */,
+				AB496A7917E1FDED005FEE8C /* UIImage+Resize.m in Sources */,
+				AB496A7A17E1FDF1005FEE8C /* NoteViewCell.m in Sources */,
+				AB496A7B17E1FDF4005FEE8C /* MenuButtonView.m in Sources */,
+				AB496A7C17E1FDF7005FEE8C /* AddNoteView.m in Sources */,
+				AB496A7D17E1FE06005FEE8C /* MFSideMenuContainerViewController.m in Sources */,
+				AB496A8217E2011D005FEE8C /* Note.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		ABC0592C17DD7529003A6C5D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB496A9217E223BE005FEE8C /* Note.m in Sources */,
 				ABC0594217DD7529003A6C5D /* main.m in Sources */,
-				ABC0594617DD7529003A6C5D /* AppDelegate.m in Sources */,
+				ABC67D9317F3E34500EC1A87 /* ImageStore.m in Sources */,
 				ABC0594F17DD7529003A6C5D /* Dunzo.xcdatamodeld in Sources */,
+				ABC0595E17DD77EC003A6C5D /* MFSideMenuContainerViewController.m in Sources */,
+				ABC0599717DE39C1003A6C5D /* DunzoViewController.m in Sources */,
+				AB9A153317ECB27100D9441F /* TextFieldPadding.m in Sources */,
+				ABC0599A17DE39D9003A6C5D /* NoteDetailViewController.m in Sources */,
+				ABC059A417DE4082003A6C5D /* NSDate+TimeAgo.m in Sources */,
+				AB9A151E17EC146E00D9441F /* DunzoButtonView.m in Sources */,
+				ABC059A517DE4082003A6C5D /* NSString+Extensions.m in Sources */,
+				ABC059A617DE4082003A6C5D /* UIColor+Extensions.m in Sources */,
+				ABC059A717DE4082003A6C5D /* UIImage+Resize.m in Sources */,
+				ABC059B617DE5CE9003A6C5D /* DunzoTableViewController.m in Sources */,
+				ABC059B917DE8A43003A6C5D /* AppDelegate.m in Sources */,
+				AB496A3517DEC665005FEE8C /* NoteListViewController.m in Sources */,
+				AB496A3917DECF98005FEE8C /* NoteStore.m in Sources */,
+				AB496A3D17DED86D005FEE8C /* NoteViewCell.m in Sources */,
+				AB496A4617E110BA005FEE8C /* MenuButtonView.m in Sources */,
+				AB496A4917E11244005FEE8C /* AddNoteView.m in Sources */,
+				AB496A8817E2186D005FEE8C /* NoteNotDoneViewController.m in Sources */,
+				AB496A8B17E2189C005FEE8C /* NoteDoneViewController.m in Sources */,
+				AB496A8E17E21E21005FEE8C /* NoteDoneGroup.m in Sources */,
+				AB9A151B17EC0FE800D9441F /* DunzoButton.m in Sources */,
+				AB496A9117E2216A005FEE8C /* Note+Custom.m in Sources */,
+				AB496A9817E22F72005FEE8C /* NoteDoneViewCell.m in Sources */,
+				AB496A9B17E22F81005FEE8C /* NoteNotDoneViewCell.m in Sources */,
+				AB496AA817E38D0C005FEE8C /* DunzoManagedObjectContext.m in Sources */,
+				ABF1783317E7B5B10046D04D /* TSQCalendarCell.m in Sources */,
+				ABF1783417E7B5B10046D04D /* TSQCalendarMonthHeaderCell.m in Sources */,
+				ABF1783517E7B5B10046D04D /* TSQCalendarRowCell.m in Sources */,
+				ABF1783617E7B5B10046D04D /* TSQCalendarView.m in Sources */,
+				ABF1783917E8159A0046D04D /* CalendarViewController.m in Sources */,
+				ABF1783C17E818740046D04D /* FlatNavigationBar.m in Sources */,
+				ABF1783F17E818AA0046D04D /* DunzoNavigationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		AB496A5C17E1F827005FEE8C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB496A5D17E1F827005FEE8C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 		ABC0593E17DD7529003A6C5D /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -191,6 +695,36 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		AB496A6417E1F827005FEE8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DunzoTests/DunzoTests-Prefix.pch";
+				INFOPLIST_FILE = "DunzoTests/DunzoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		AB496A6517E1F827005FEE8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DunzoTests/DunzoTests-Prefix.pch";
+				INFOPLIST_FILE = "DunzoTests/DunzoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
 		ABC0595017DD7529003A6C5D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -250,10 +784,13 @@
 		ABC0595317DD7529003A6C5D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Tommy Dang (FZP2738S6Z)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Dunzo/Dunzo-Prefix.pch";
 				INFOPLIST_FILE = "Dunzo/Dunzo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -261,10 +798,13 @@
 		ABC0595417DD7529003A6C5D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Tam Dang (3YXX687BYN)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Dunzo/Dunzo-Prefix.pch";
 				INFOPLIST_FILE = "Dunzo/Dunzo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -272,6 +812,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		AB496A6317E1F827005FEE8C /* Build configuration list for PBXNativeTarget "DunzoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB496A6417E1F827005FEE8C /* Debug */,
+				AB496A6517E1F827005FEE8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		ABC0592B17DD7529003A6C5D /* Build configuration list for PBXProject "Dunzo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -288,6 +837,7 @@
 				ABC0595417DD7529003A6C5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
